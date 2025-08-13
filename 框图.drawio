@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="28.0.6" pages="4">
   <diagram name="CANFD" id="1xXzg4hlqvbpY5tBiZtY">
-    <mxGraphModel dx="1987" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1961" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-5" value="canfd_crc_cal" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-998" width="150" height="258" as="geometry" />
+        </mxCell>
         <mxCell id="JA_j1WbDyEbJ6JvtkIJN-90" value="Arbitration Phase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="282.5" y="190" width="120" height="30" as="geometry" />
         </mxCell>
@@ -2468,6 +2471,45 @@
             <mxPoint x="1040" y="222.51999999999998" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-1" value="bit_error_det" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="483" y="-1016" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-2" value="bit_timing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="483" y="-936" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-3" value="can_crc15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="-957" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-4" value="canfd_config" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-769" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-6" value="canfd_crc17" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="-886" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-7" value="canfd_crc21" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="-815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-8" value="canfd_filter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-784" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-9" value="canfd_if" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="631.5" y="-705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-10" value="canfd_top" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-11" value="canfd_upload" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-1017" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-12" value="node_state_mng" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-941" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-13" value="protocal_mng" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-858" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMldMAvuhvvZXlj5zdJW-14" value="stuff_mng" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
