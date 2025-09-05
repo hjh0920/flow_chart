@@ -5678,8 +5678,8 @@
         <mxCell id="6asR4fHGUJyJlorUf_ct-119" value="Delay_resp 帧(T4)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontStyle=0;rotation=15;" vertex="1" parent="1">
           <mxGeometry x="69.99596523969726" y="159.0038296159663" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6asR4fHGUJyJlorUf_ct-120" value="时间同步原理图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="61" y="237" width="80" height="20" as="geometry" />
+        <mxCell id="6asR4fHGUJyJlorUf_ct-120" value="图1 时间同步原理图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="56" y="237" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
