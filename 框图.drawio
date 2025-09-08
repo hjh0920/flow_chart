@@ -5227,12 +5227,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MWemqKeGHZrBVDu7Dw1Q" name="ame">
-    <mxGraphModel dx="1637" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uYVQXXaeC0ZoHofxqbkv-27" value="ptp_top" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="-300" width="301" height="200" as="geometry" />
+          <mxGeometry x="-731" y="-659" width="301" height="200" as="geometry" />
         </mxCell>
         <mxCell id="6asR4fHGUJyJlorUf_ct-42" value="80" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-765" y="-976" width="30" height="20" as="geometry" />
@@ -5809,7 +5809,7 @@
           <mxGeometry x="-544" y="-500" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uYVQXXaeC0ZoHofxqbkv-32" value="PTP控制模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="-534" y="-520" width="90" height="30" as="geometry" />
+          <mxGeometry x="-534" y="-515" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uYVQXXaeC0ZoHofxqbkv-34" value="万兆网接收156.25MHz" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-735" y="-440" width="110" height="30" as="geometry" />
