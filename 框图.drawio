@@ -5227,7 +5227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MWemqKeGHZrBVDu7Dw1Q" name="ame">
-    <mxGraphModel dx="1624" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2250" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6603,20 +6603,20 @@
         <mxCell id="nnjFeJQchUJ6sM1FLqB1-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-482" y="20" width="43" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nnjFeJQchUJ6sM1FLqB1-22" value="ICMP RX" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-514.12" y="24" width="70" height="30" as="geometry" />
+        <mxCell id="nnjFeJQchUJ6sM1FLqB1-22" value="ICMP RX" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-519.12" y="24" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nnjFeJQchUJ6sM1FLqB1-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-599.75" y="370" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nnjFeJQchUJ6sM1FLqB1-25" value="GTY Transceiver" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-631" y="375" width="110" height="30" as="geometry" />
+        <mxCell id="nnjFeJQchUJ6sM1FLqB1-25" value="GTY Transceiver" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-636" y="375" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nnjFeJQchUJ6sM1FLqB1-26" value="RXUSRCLK2时钟域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-692.5" y="480" width="83" height="30" as="geometry" />
+        <mxCell id="nnjFeJQchUJ6sM1FLqB1-26" value="RXUSRCLK2时钟域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-664.5" y="480" width="101.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nnjFeJQchUJ6sM1FLqB1-27" value="TXUSRCLK2时钟域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-791.25" y="480" width="74" height="30" as="geometry" />
+        <mxCell id="nnjFeJQchUJ6sM1FLqB1-27" value="TXUSRCLK2时钟域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-791.25" y="480" width="101.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nnjFeJQchUJ6sM1FLqB1-28" style="edgeStyle=none;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="nnjFeJQchUJ6sM1FLqB1-26" target="nnjFeJQchUJ6sM1FLqB1-26">
           <mxGeometry relative="1" as="geometry" />
