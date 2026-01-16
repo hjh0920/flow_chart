@@ -5227,7 +5227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MWemqKeGHZrBVDu7Dw1Q" name="ame">
-    <mxGraphModel dx="3564" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3113" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7800,7 +7800,7 @@
           <mxGeometry height="73" width="82" x="-267.5" y="1387" as="geometry" />
         </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="TMP117驱动模块" vertex="1">
-          <mxGeometry height="63" width="102.75" x="-298.63" y="698" as="geometry" />
+          <mxGeometry height="63" width="102.75" x="-250" y="699.5" as="geometry" />
         </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.009;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#000000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -8196,18 +8196,6 @@
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-138" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="下行&lt;br&gt;&lt;div&gt;以太网&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="-485.5" y="1271" as="geometry" />
         </mxCell>
-        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;container=0;" value="" vertex="1">
-          <mxGeometry height="20" width="52" x="-119" y="794.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;container=0;" value="" vertex="1">
-          <mxGeometry height="20" width="52" x="-119" y="814.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;container=0;" value="" vertex="1">
-          <mxGeometry height="40" width="55.5" x="-174.5" y="794.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-145" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="PTP时间同步模块" vertex="1">
-          <mxGeometry height="30" width="110" x="-172" y="800" as="geometry" />
-        </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-146" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=7.5;startSize=2.280672268907563;endSize=2.280672268907563;startWidth=7.983193277310924;endWidth=7.983193277310924;entryX=-0.003;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;startFill=1;endFill=1;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="-471.93" y="1220.48" as="sourcePoint" />
@@ -8219,6 +8207,21 @@
         </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-148" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PTP报文&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="70" x="-478.5" y="1187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-149" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="112.5" x="-256.75" y="789.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-140" parent="0sJ5QPDeCBYDeZB-aRhH-149" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;container=0;" value="" vertex="1">
+          <mxGeometry height="29.5" width="52" x="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-141" parent="0sJ5QPDeCBYDeZB-aRhH-149" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;container=0;" value="" vertex="1">
+          <mxGeometry height="30.5" width="52" x="55.5" y="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-142" parent="0sJ5QPDeCBYDeZB-aRhH-149" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;container=0;" value="" vertex="1">
+          <mxGeometry height="60" width="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-145" parent="0sJ5QPDeCBYDeZB-aRhH-149" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="PTP时间同步模块" vertex="1">
+          <mxGeometry height="30" width="110" x="2.5" y="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
