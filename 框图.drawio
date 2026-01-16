@@ -5227,7 +5227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MWemqKeGHZrBVDu7Dw1Q" name="ame">
-    <mxGraphModel dx="3113" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3384" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7800,7 +7800,7 @@
           <mxGeometry height="73" width="82" x="-267.5" y="1387" as="geometry" />
         </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="TMP117驱动模块" vertex="1">
-          <mxGeometry height="63" width="102.75" x="-250" y="699.5" as="geometry" />
+          <mxGeometry height="63" width="102.75" x="-251.87" y="703" as="geometry" />
         </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.009;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#000000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -8196,7 +8196,7 @@
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-138" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="下行&lt;br&gt;&lt;div&gt;以太网&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="-485.5" y="1271" as="geometry" />
         </mxCell>
-        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-146" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=7.5;startSize=2.280672268907563;endSize=2.280672268907563;startWidth=7.983193277310924;endWidth=7.983193277310924;entryX=-0.003;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;startFill=1;endFill=1;" value="">
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-146" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=7.5;startSize=2.280672268907563;endSize=2.280672268907563;startWidth=7.983193277310924;endWidth=7.983193277310924;entryX=0.001;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;startFill=1;endFill=1;" target="0sJ5QPDeCBYDeZB-aRhH-7" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="-471.93" y="1220.48" as="sourcePoint" />
             <mxPoint x="-415.08" y="1220" as="targetPoint" />
@@ -8222,6 +8222,39 @@
         </mxCell>
         <mxCell id="0sJ5QPDeCBYDeZB-aRhH-145" parent="0sJ5QPDeCBYDeZB-aRhH-149" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="PTP时间同步模块" vertex="1">
           <mxGeometry height="30" width="110" x="2.5" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-151" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.009;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#000000;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-296.1337500000005" y="813" />
+            </Array>
+            <mxPoint x="-325.56" y="813.185" as="sourcePoint" />
+            <mxPoint x="-256.1337500000005" y="813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-152" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.009;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#000000;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-296.7537500000005" y="834" />
+            </Array>
+            <mxPoint x="-326.18" y="834.185" as="sourcePoint" />
+            <mxPoint x="-256.7537500000005" y="834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-153" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="时间戳" vertex="1">
+          <mxGeometry height="30" width="60" x="-324.75" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-154" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="秒脉冲" vertex="1">
+          <mxGeometry height="30" width="60" x="-321.56" y="807.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-157" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=7.5;startSize=2.280672268907563;endSize=2.280672268907563;startWidth=7.983193277310924;endWidth=7.983193277310924;startFill=1;endFill=1;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="-149.25" y="819.74" as="sourcePoint" />
+            <mxPoint x="-90" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sJ5QPDeCBYDeZB-aRhH-158" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PTP报文&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="-155.5" y="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
