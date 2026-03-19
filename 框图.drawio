@@ -9558,7 +9558,7 @@
             <mxPoint x="6" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="触摸板" vertex="1">
+        <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="触摸传感器" vertex="1">
           <mxGeometry height="40" width="90" x="146" y="570" as="geometry" />
         </mxCell>
         <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-105" edge="1" parent="1" source="HRdDwi0rlhGQgA_Ds0Yy-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.072;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="HRdDwi0rlhGQgA_Ds0Yy-75">
@@ -9601,7 +9601,7 @@
             <mxPoint x="-1" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="双目相机板灯环" vertex="1">
+        <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="双目相机灯环" vertex="1">
           <mxGeometry height="40" width="90" x="90" y="441" as="geometry" />
         </mxCell>
         <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-116" edge="1" parent="1" source="HRdDwi0rlhGQgA_Ds0Yy-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.027;exitY=0.531;exitDx=0;exitDy=0;entryX=0.013;entryY=0.798;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitPerimeter=0;">
@@ -9616,7 +9616,7 @@
             <mxPoint x="3" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="双目相机板灯环测量电压ADC" vertex="1">
+        <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="双目相机灯环ADC" vertex="1">
           <mxGeometry height="40" width="90" x="90" y="500" as="geometry" />
         </mxCell>
         <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-119" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.912;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="HRdDwi0rlhGQgA_Ds0Yy-75">
