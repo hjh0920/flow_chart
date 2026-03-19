@@ -9146,7 +9146,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HRdDwi0rlhGQgA_Ds0Yy-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.15,0,0,0],[1,0.31,0,0,0],[1,0.5,0,0,0],[1,0.65,0,0,0],[1,0.82,0,0,0],[1,1,0,0,0]];verticalAlign=top;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;M321-FPGA-&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 20px; background-color: transparent;&quot;&gt;zu3eg&lt;/span&gt;" vertex="1">
-          <mxGeometry height="580" width="570" x="70" y="40" as="geometry" />
+          <mxGeometry height="560" width="570" x="70" y="60" as="geometry" />
         </mxCell>
         <mxCell id="eZW2n76n14wAnlMrKxZP-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DDR4*4" vertex="1">
           <mxGeometry height="40" width="90" x="1310" y="132" as="geometry" />
