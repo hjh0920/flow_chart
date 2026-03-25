@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.5" pages="7">
   <diagram name="CANFD" id="1xXzg4hlqvbpY5tBiZtY">
     <mxGraphModel dx="2600" dy="2164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9141,7 +9141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g4mG0SDY6giHJSwJrQj7" name="ame-光学定位仪">
-    <mxGraphModel dx="1174" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9690,6 +9690,36 @@
           <mxGeometry relative="1" x="-0.1816" y="1" as="geometry">
             <mxPoint x="-7" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-3" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="上电" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-5" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="QSPI初始化" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-7" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SYSMON初始化" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-9" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中断初始化" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GPIO初始化" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="GetStatus_in[31:0]&lt;div&gt;SetStatus_out[31:0]&lt;/div&gt;&lt;div&gt;cam_gpio_tri_start[0]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="280" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
