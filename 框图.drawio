@@ -9784,11 +9784,38 @@
         <mxCell id="23kCRIT7knrrA7tKbnVE-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置PS定时器（TTC）并连接中断" vertex="1">
           <mxGeometry height="40" width="90" x="190" y="1570" as="geometry" />
         </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-40" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="23kCRIT7knrrA7tKbnVE-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LCD初始化" vertex="1">
           <mxGeometry height="40" width="90" x="190" y="1660" as="geometry" />
         </mxCell>
-        <mxCell id="23kCRIT7knrrA7tKbnVE-38" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="1. 配置&amp;nbsp;gpio_TouchINTR_in[0]&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;设置中断关联&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;gpio_TouchINTR_in[0]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VDMA配置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. VDMA中断配置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. 启动DMA传输(视频数据传到PL端但没使用)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="23kCRIT7knrrA7tKbnVE-38" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="1. 配置&amp;nbsp;gpio_TouchINTR_in[0]&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;设置中断关联&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;gpio_TouchINTR_in[0]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VDMA配置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. VDMA中断配置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. 启动DMA传输(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;视频数据传到PL端但没使用&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;6. GUI初始化&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="280" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-42" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="蜂鸣器响一声" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-44" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="延迟500ms" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-47" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PowerON" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-45" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="1. 设置灯环亮度&lt;div&gt;2. 设置灯环电压阈值&lt;/div&gt;&lt;div&gt;3. 设置IP、MAC地址&lt;/div&gt;&lt;div&gt;4. 设置LCD电压阈值&lt;/div&gt;&lt;div&gt;5. 等参数&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="280" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TPG VDMA配置" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="1900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
