@@ -9742,11 +9742,20 @@
         <mxCell id="23kCRIT7knrrA7tKbnVE-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="读取EEPROM配置数据" vertex="1">
           <mxGeometry height="40" width="90" x="190" y="1110" as="geometry" />
         </mxCell>
-        <mxCell id="23kCRIT7knrrA7tKbnVE-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="双目初始化1" vertex="1">
-          <mxGeometry height="40" width="90" x="190" y="1190" as="geometry" />
+        <mxCell id="23kCRIT7knrrA7tKbnVE-23" edge="1" parent="1" source="23kCRIT7knrrA7tKbnVE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23kCRIT7knrrA7tKbnVE-22" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="23kCRIT7knrrA7tKbnVE-21" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="1. cam_gpio[1:0]对应两个相机XCLR信号，先写0再写1完成复位操作&lt;div&gt;2. 两个相机IIC接口初始化&lt;/div&gt;&lt;div&gt;3. MIPI CSI2 RX SUBSYSTEM 初始化&lt;/div&gt;&lt;div&gt;4. VDMA初始化&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="100" x="280" y="1180" as="geometry" />
+        <mxCell id="23kCRIT7knrrA7tKbnVE-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="双目初始化1" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-21" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="1. cam_gpio[1:0]对应两个相机XCLR信号，先写0再写1完成复位操作&lt;div&gt;2. 两个相机IIC接口初始化&lt;/div&gt;&lt;div&gt;3. MIPI CSI2 RX SUBSYSTEM 初始化&lt;/div&gt;&lt;div&gt;4. VDMA初始化&lt;/div&gt;&lt;div&gt;5. VDMA 中断初始化&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="280" y="1159" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="彩色相机初始化" vertex="1">
+          <mxGeometry height="40" width="90" x="190" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="23kCRIT7knrrA7tKbnVE-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="1. 延迟500ms&lt;div&gt;2. SetStatus_out[31:0] = 32&#39;h0000_4000，彩色相机配置使能&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;延迟50ms&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SetStatus_out[31:0] = 32&#39;h0000_0000，彩色相机配置。。。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. 延迟50ms&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;6.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="280" y="1240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
