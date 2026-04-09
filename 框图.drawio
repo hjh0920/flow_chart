@@ -9141,7 +9141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g4mG0SDY6giHJSwJrQj7" name="ame-光学定位仪">
-    <mxGraphModel dx="1406" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10742,6 +10742,16 @@
         <mxCell id="tVCZLfJtIezEjIrrWjNw-35" parent="1" style="whiteSpace=wrap;html=1;" value="AXI BRAM&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="114" x="1800" y="1880" as="geometry" />
         </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-60" edge="1" parent="1" source="tVCZLfJtIezEjIrrWjNw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2220" y="1905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-61" connectable="0" parent="tVCZLfJtIezEjIrrWjNw-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BRAM_MARKERS_L" vertex="1">
+          <mxGeometry relative="1" x="-0.0567" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-36" parent="1" style="whiteSpace=wrap;html=1;" value="BRAM" vertex="1">
           <mxGeometry height="50" width="114" x="1970" y="1880" as="geometry" />
         </mxCell>
@@ -10750,6 +10760,16 @@
         </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-44" parent="1" style="whiteSpace=wrap;html=1;" value="AXI BRAM&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="114" x="1800" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-62" edge="1" parent="1" source="tVCZLfJtIezEjIrrWjNw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2220" y="1965.1034482758623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-63" connectable="0" parent="tVCZLfJtIezEjIrrWjNw-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BRAM_MARKERS_R" vertex="1">
+          <mxGeometry relative="1" x="-0.04" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-45" parent="1" style="whiteSpace=wrap;html=1;" value="BRAM" vertex="1">
           <mxGeometry height="50" width="114" x="1970" y="1940" as="geometry" />
@@ -10760,6 +10780,16 @@
         <mxCell id="tVCZLfJtIezEjIrrWjNw-47" parent="1" style="whiteSpace=wrap;html=1;" value="AXI BRAM&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="114" x="1800" y="2000" as="geometry" />
         </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-64" edge="1" parent="1" source="tVCZLfJtIezEjIrrWjNw-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2220" y="2025.1034482758623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-65" connectable="0" parent="tVCZLfJtIezEjIrrWjNw-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BRAM_MODE" vertex="1">
+          <mxGeometry relative="1" x="0.1232" y="-2" as="geometry">
+            <mxPoint x="-10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-48" parent="1" style="whiteSpace=wrap;html=1;" value="BRAM" vertex="1">
           <mxGeometry height="50" width="114" x="1970" y="2000" as="geometry" />
         </mxCell>
@@ -10769,6 +10799,16 @@
         <mxCell id="tVCZLfJtIezEjIrrWjNw-52" parent="1" style="whiteSpace=wrap;html=1;" value="AXI BRAM&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="114" x="1800" y="2060" as="geometry" />
         </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-66" edge="1" parent="1" source="tVCZLfJtIezEjIrrWjNw-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2220" y="2085.1034482758623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-67" connectable="0" parent="tVCZLfJtIezEjIrrWjNw-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BRAM_WIFI" vertex="1">
+          <mxGeometry relative="1" x="0.0015" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-53" parent="1" style="whiteSpace=wrap;html=1;" value="BRAM" vertex="1">
           <mxGeometry height="50" width="114" x="1970" y="2060" as="geometry" />
         </mxCell>
@@ -10777,6 +10817,16 @@
         </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-55" parent="1" style="whiteSpace=wrap;html=1;" value="AXI BRAM&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="114" x="1800" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-68" edge="1" parent="1" source="tVCZLfJtIezEjIrrWjNw-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2220" y="2145.1034482758623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVCZLfJtIezEjIrrWjNw-69" connectable="0" parent="tVCZLfJtIezEjIrrWjNw-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BRAM_PORTB" vertex="1">
+          <mxGeometry relative="1" x="0.0725" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tVCZLfJtIezEjIrrWjNw-56" parent="1" style="whiteSpace=wrap;html=1;" value="BRAM" vertex="1">
           <mxGeometry height="50" width="114" x="1970" y="2120" as="geometry" />
